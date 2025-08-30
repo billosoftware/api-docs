@@ -1,55 +1,79 @@
-## AriaDocs - Documentation Template
+## AriaDocs - Documentation Template (Branch - `version_docs`)
 
-A versatile, open-source documentation template supporting multiple frameworks.
+This branch has feature for document versioning
 
-<img src="./resources/public-og.png" />
+This feature-packed documentation template, built with Next.js, offers a sleek and responsive design, perfect for all your project documentation needs.
 
-### Templates
+<img src="./public/public-og.png" />
 
-- **Next.js Base:** Full-featured documentation with SSR and SSG.  
-  [View Template](https://github.com/nisabmohd/Aria-Docs/tree/master/nextjs-base)
 
-- **Next.js Minimal:** Lightweight documentation for simple needs.  
-  [View Template](https://github.com/nisabmohd/Aria-Docs/tree/master/nextjs-minimal)
+<br/>
 
-- **Next.js i18n:** Multilingual support for global audiences.  
-  [View Template](https://github.com/nisabmohd/Aria-Docs/tree/master/nextjs-i18n)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-- **React Router Base:** Documentation with React Router Framework.  
-  [View Template](https://github.com/nisabmohd/Aria-Docs/tree/master/react-router-base)
+## Getting Started
 
-- **TanStack Start Base:** Documentation setup powered by TanStack Router.  
-  [View Template](https://github.com/nisabmohd/Aria-Docs/tree/master/tanstack-start-base)
+First, run the development server:
 
-### Quick Start
-
-Create a new project:
-
-```plaintext
-npx create-aria-doc <project-directory>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Deploy
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-| Template            | Deploy Link                                                                                                                                                                                                                                             |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Next.js Base        | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs&project-name=nextjs-base&root-directory=nextjs-base)                                                                          |
-| Next.js Minimal     | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs&project-name=nextjs-minimal&root-directory=nextjs-minimal)                                                                    |
-| Next.js i18n        | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs&project-name=nextjs-i18n&root-directory=nextjs-i18n)                                                                          |
-| React Router Base   | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs&project-name=react-router-base&root-directory=react-router-base)                                                              |
-| TanStack Start Base | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs&project-name=tanstack-start-base&root-directory=tanstack-start-base&build-command=npm%20run%20build%20--%20--preset%20vercel) |
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Features
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- SSR and SSG Support
-- Multiple Frameworks (Next.js, React Router, TanStack Router)
-- MDX for Interactive Docs
-- TOC with Scroll Highlight
-- Dark Mode
-- i18n for Multilingual Docs
-- Static and Dynamic Routing
+## Learn More
 
-### Support
+To learn more about Next.js, take a look at the following resources:
 
-Please consider sponsoring to keep this project alive.  
-[Sponsor Me](https://github.com/sponsors/nisabmohd)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs)
+
+Got it! Here's a way to present the features in a more structured and visually appealing way using a table:
+
+
+
+
+## Features
+
+```plaintext
+Features
+├── MDX supported
+├── Docs versioning
+├── Nested pages support
+├── Blog section (New)
+├── Syntax highlighting
+├── Table of contents
+├── Pagination
+├── Search
+├── Code line highlight & code title
+├── Static site generation
+├── Custom components
+├── Light mode & dark mode
+├── Code Switcher
+├── Code copy
+└── Table of content observer highlight
+```
+
+
+
+<img src="./public/screely-1725797779479.png" />
