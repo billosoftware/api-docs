@@ -126,6 +126,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Billo Invoicing" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <meta name="theme-color" content="#009966" />
+        <meta name="algolia-site-verification"  content="1D4273021539BADC" />
       </head>
       <body className={` ${libreBaskerville.variable} ${figtree.variable} `} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
