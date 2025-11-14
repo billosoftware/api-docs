@@ -1,0 +1,284 @@
+---
+title: "Celebrating Billo Invoicing v1.0: A Complete Invoice Management Platform"
+description: "We're excited to announce Billo v1.0. A full-featured invoice management platform built for modern businesses. This release includes everything you need to create, send, track, and get paid for your invoices."
+date: 14-11-2025
+authors:
+  - avatar: "https://ldo.dev/_static/me.png"
+    handle: v0sudo
+    username: Luke
+    handleUrl: "https://github.com/v0sudo"
+cover: "/img/posts/version-one.png"
+---
+
+## Introduction
+
+We're excited to announce Billo Invoicing Version 1. A full-featured invoice management platform built for modern businesses. This release includes everything you need to create, send, track, and get paid for your invoices.
+
+Billo Invoicing helps businesses and freelancers streamline invoicing, manage clients, process payments, and stay compliant. After months of development, testing, and feedback from our early users, we're proud to share what makes Billo Invoicing special.
+
+## Core Features
+
+### Invoice Management
+
+Create and manage invoices with ease. Billo Invoicing gives you complete control over your invoicing workflow:
+
+- **Customisable line items**: Add products, services, and descriptions with flexible pricing
+- **Multiple invoice templates**: Choose from Default, Professional, Minimalist, or Modern designs
+- **Reusable templates**: Save your invoices as templates for faster future creation
+- **Draft mode**: Work on invoices without sending them until they're ready
+- **Custom invoice numbering**: Set your own numbering scheme
+- **Multi-currency support**: Default GBP with support for multiple currencies
+- **Notes and payment instructions**: Add context and payment details
+- **Status tracking**: Track invoices through their lifecycle: Draft → Sent → Viewed → Paid
+
+### Recurring Invoices
+
+Automate your recurring billing:
+
+- Set up recurring invoices (weekly, bi-weekly, monthly, quarterly, yearly)
+- Automatic generation via scheduled jobs
+- Auto-send option for hands-off invoicing
+- Never miss a billing cycle
+
+### Invoice Sharing & Delivery
+
+Share invoices securely and professionally:
+
+- **Secure token-based public preview**: Share invoices without exposing sensitive data
+- **PDF download**: Professional PDF generation for all invoices
+- **Email delivery**: Send invoices directly to clients
+- **View tracking**: Know when clients have viewed your invoices
+- **Notifications**: Get alerted when invoices are viewed or paid
+
+## Payment Processing
+
+Get paid faster with integrated payment processing powered by Stripe.
+
+### Stripe Integration
+
+- **Stripe Connect OAuth**: One-click account connection, no API keys needed
+- **Payment links for invoices**: Automatic payment link generation
+- **Standalone payment links**: Create payment links independent of invoices
+- **Automatic payment reconciliation**: Payments automatically update invoice status
+- **Payment receipt emails**: Clients receive receipts automatically
+
+### Payment Tracking
+
+- Mark invoices as paid manually or automatically
+- Track payment dates and methods
+- Complete payment history
+- Receipt generation for all payments
+
+## Client Management
+
+Keep all your client information organised in one place.
+
+### Client Database
+
+- **Comprehensive client profiles**: Contact information, company details, and tax IDs
+- **Address management**: Store clients address
+- **Payment terms per client**: Set custom payment terms
+- **Preferred payment methods**: Track how each client prefers to pay
+- **Notes and tags**: Organise and categorise clients
+
+### Bulk Operations
+
+- **CSV client import**: Import multiple clients at once
+- **Template CSV download**: Get started quickly with our template
+- **Validation and error reporting**: Catch issues before import
+- **Import preview**: Review before committing changes
+
+## Quote Management
+
+Create professional quotes and convert them to invoices seamlessly.
+
+- Create quotes similar to invoices with the same customisation options
+- Convert quotes to invoices with one click
+- Quote expiration tracking
+- Email delivery for quotes
+- Draft quotes for work-in-progress
+
+## Construction Industry Scheme (CIS)
+
+Built-in UK CIS compliance for construction businesses.
+
+- **CIS-enabled invoices**: Toggle CIS calculations per invoice
+- **Deduction rates**: Support for 0%, 20%, and 30% deduction rates
+- **Labour vs materials categorisation**: Properly categorise line items
+- **CIS breakdown display**: Clear breakdown of deductions
+- **Net payment calculations**: Automatic net payment calculations
+- **Client CIS settings integration**: Store client CIS status
+
+## Reporting & Analytics
+
+Understand your business performance with comprehensive reporting.
+
+### Financial Reporting
+
+- Date range filtering for any period
+- Revenue calculations and trends
+- Invoice statistics and summaries
+- CSV export for external analysis
+- Tax reporting support
+
+### Dashboard Metrics
+
+- Total invoices and revenue at a glance
+- Paid vs unpaid tracking
+- Overdue invoices highlighted
+- Recent activity feed
+
+## Automation
+
+Save time with automated workflows and reminders.
+
+### Automated Reminders
+
+- **Pre-due reminders**: Sent 1 day before payment is due
+- **Due today reminders**: Notify clients on the due date
+- **Overdue reminders**: Daily reminders until payment is received
+- **Configurable notification settings**: Control when and how reminders are sent
+
+### Automated Tasks
+
+- Recurring invoice generation
+- Quote expiration handling
+- Monthly invoice count reset
+- Email notifications for all events
+
+## User Experience
+
+### Customisation
+
+- Multiple invoice designs to match your brand
+- Custom invoice colours
+- Logo upload for branded invoices
+- Comprehensive branding options
+- Default settings per user
+
+### Accessibility
+
+- **Dyslexic font option**: Improve readability for users with dyslexia
+- **Dark/light theme**: Choose your preferred theme
+- **Responsive design**: Works on all devices
+- **Mobile-optimised interface**: Full functionality on mobile
+
+### Settings & Preferences
+
+- Business profile management
+- Banking information storage
+- Default payment terms
+- Notification preferences
+- Invoice automation settings
+
+## Security & Compliance
+
+Your data and your clients' data are protected.
+
+- **Secure token-based invoice sharing**: Safe public invoice links
+- **Encrypted payment credentials**: Stripe tokens encrypted at rest
+- **User authentication via Clerk**: Enterprise-grade authentication
+- **Protected API endpoints**: Secure backend architecture
+- **GDPR considerations**: Built with privacy in mind
+- **UK CIS compliance**: Meet UK construction industry requirements
+
+## By the Numbers
+
+Billo Invoicing v1.0 represents a significant milestone:
+
+- **100+ features** across the platform
+- **8 core modules** covering all invoicing needs
+- **3 major integrations**: Stripe, Clerk, Resend
+- **4 invoice templates** for different styles
+- **7+ notification types** to keep you informed
+- **3 automated cron jobs** handling recurring tasks
+- **Multiple payment methods** supported
+
+## Technical Excellence
+
+Billo Invoicing is built with modern, reliable technologies:
+
+- **Frontend:** Next.js 15, React 19, TypeScript
+- **Styling:** Tailwind CSS, shadcn/ui
+- **Backend:** tRPC, Prisma ORM
+- **Database:** PostgreSQL
+- **Authentication:** Clerk
+- **Payments:** Stripe Connect
+- **Email:** Resend
+- **File Storage:** UploadThing
+
+This modern stack ensures Billo Invoicing is fast, reliable, and scalable as your business grows.
+
+## What Makes Billo Invoicing Special?
+
+- **All-in-one platform**: Invoicing, payments, client management, and reporting in one place
+- **UK-focused**: CIS compliance built-in from day one
+- **Automation-first**: Reminders and recurring invoices save you time
+- **Modern stack**: Fast, reliable, and scalable architecture
+- **User-friendly**: Intuitive interface that doesn't require training
+- **Flexible**: Templates, customisation, and multiple currencies
+
+## Comprehensive Help Documentation
+
+We believe great software comes with great documentation. That's why Billo Invoicing includes a comprehensive help center covering every aspect of the platform.
+
+### Getting Started Guides
+
+- Introduction to Billo Invoicing
+- Setting up your account
+- Navigating the dashboard
+- Understanding themes and customisation
+
+### Feature Documentation
+
+Our help center includes detailed guides for:
+
+- **Invoices**: Creating invoices, managing line items, sending invoices, understanding statuses, using templates, and setting up recurring invoices
+- **Quotes**: Creating and sending quotes, converting quotes to invoices
+- **Client Management**: Adding and managing clients, importing via CSV, configuring CIS settings
+- **Payments**: Setting up Stripe Connect, tracking payments
+- **Construction Industry Scheme**: Understanding CIS, creating CIS invoices
+- **Reports and Analytics**: Understanding financial reports
+- **Settings and Customisation**: Profile settings, business information, invoice defaults
+
+### Troubleshooting Resources
+
+- Common issues and solutions
+- Browser compatibility information
+
+All documentation is available at [billoinvoicing.com/help](https://billoinvoicing.com/help) and is designed to help you get the most out of Billo Invoicing, whether you're just getting started or looking to master advanced features.
+
+## What's Next?
+
+We're already working on exciting new features:
+
+- SMS notifications for payment reminders
+- Advanced search and filtering across all modules
+- Client portal for self-service invoice access
+- Additional integrations with popular business tools
+
+Your feedback shapes our roadmap. We're committed to building features that make invoicing easier for you.
+
+## Thank You
+
+Thank you to our early users, beta testers, and supporters. Your feedback helped us reach v1.0. Every bug report, feature request, and kind word has made Billo Invoicing better.
+
+## Get Started Today
+
+Ready to streamline your invoicing?
+
+- Sign up and create your account
+- Explore all the features
+- Visit our [help center](https://billoinvoicing.com/help) for detailed guides
+- Start creating invoices
+- Get paid faster
+
+## Stay Connected
+
+- **Website:** [billoinvoicing.com](https://billoinvoicing.com)
+- **Support:** support@billoinvoicing.com
+- **Roadmap:** [billoinvoicing.com/roadmap](https://billoinvoicing.com/roadmap)
+
+Here's to v1.0 and the future of invoice management.
+
+The Billo Invoicing Team 🎉
