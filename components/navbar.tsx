@@ -57,9 +57,6 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center sm:justify-normal justify-between sm:gap-3 ml-1 sm:w-fit w-[90%]">
-          <Link href={`https://billoinvoicing.com`} className={buttonVariants({ variant: "link", className: "px-6", size: "lg" })}>
-            Main App
-          </Link>
           <AlgoliaSearch {...algolia_props} />
           <div className="flex items-center justify-between sm:gap-2">
             <div className="flex ml-4 sm:ml-0">

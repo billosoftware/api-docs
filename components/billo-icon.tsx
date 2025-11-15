@@ -18,7 +18,7 @@ export default function BilloIcon({ iconOnly, shortName, className }: BilloIconP
     );
   }
   return (
-    <Link href="/" className="flex flex-row items-center gap-2">
+    <Link href="https://billoinvoicing.com" className="flex flex-row items-center gap-2">
       <div className="text-sidebar-primary-foreground flex aspect-square items-center justify-center rounded-md">
         <Image src="/img/billo-media/icon-color.svg" alt="Billo Icon" width={32} height={32} className="aspect-square rounded-md object-cover" />
       </div>
